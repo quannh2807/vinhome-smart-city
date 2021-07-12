@@ -13,7 +13,7 @@ const SText = styled.Text`
 export const HomeScreen = memo(() => {
 	return (
 		<SContainer>
-			<SText>Home Screen</SText>
+			<SText>Home Screen Home Screen </SText>
 		</SContainer>
 	);
 });
