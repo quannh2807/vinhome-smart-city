@@ -11,7 +11,21 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		199AA78FAD854BAC8A298A69 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 356EAAA2FFA4420891594B3F /* Roboto-MediumItalic.ttf */; };
+		46220DCDA2B0401FAC68F592 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE14BC88CDD4E3CB7250149 /* Roboto-Thin.ttf */; };
+		4C120901ED8748E5B26A0731 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA510F71E73422F8F3E6B23 /* Roboto-BoldItalic.ttf */; };
+		5979391C907A49259018451F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB67D068E6B0446FBA8254E5 /* Roboto-Bold.ttf */; };
+		7C3F8610CA074C31A3FC6EA1 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A88A03198193454EB10B50D0 /* Roboto-BlackItalic.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8526D523612848C0B28F1CDB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A4E77247374F4DA569F5F4 /* Roboto-Regular.ttf */; };
+		86114D573EFA49F9A5FAEE20 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E1F78C953284E33ABAEF1AD /* Roboto-Italic.ttf */; };
+		9E07D8D93C4082E768C78E7E /* libPods-vinhome_smart_city.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 077E442D41FC23FCAAC2374E /* libPods-vinhome_smart_city.a */; };
+		CCC317AF48F443F6A207494F /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6CBBFB5742A9411F9B3703F9 /* Roboto-Black.ttf */; };
+		D814D33DE3F2EB04206A3DBA /* libPods-vinhome_smart_city-vinhome_smart_cityTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 508EB6F4B6EAF08520F60FC6 /* libPods-vinhome_smart_city-vinhome_smart_cityTests.a */; };
+		DAC0E03624464FE595E8E428 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAB072261A5F435CB14FCBBB /* Roboto-Medium.ttf */; };
+		E7241EBB23E04660B419B4E0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F75B7567A9704316BBA18D39 /* Roboto-LightItalic.ttf */; };
+		EB96A082AE3D417FA42E706B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE876B868F7447E9B798D814 /* Roboto-ThinItalic.ttf */; };
+		ED1999255D584513AFCD5CB0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03E293FD6D99427A8D9E880F /* Roboto-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +42,32 @@
 		00E356EE1AD99517003FC87E /* vinhome_smart_cityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vinhome_smart_cityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* vinhome_smart_cityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vinhome_smart_cityTests.m; sourceTree = "<group>"; };
+		03174A94655851338082045B /* Pods-vinhome_smart_city-vinhome_smart_cityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinhome_smart_city-vinhome_smart_cityTests.debug.xcconfig"; path = "Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		03E293FD6D99427A8D9E880F /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		077E442D41FC23FCAAC2374E /* libPods-vinhome_smart_city.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vinhome_smart_city.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* vinhome_smart_city.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vinhome_smart_city.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = vinhome_smart_city/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = vinhome_smart_city/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = vinhome_smart_city/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vinhome_smart_city/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vinhome_smart_city/main.m; sourceTree = "<group>"; };
+		1D4B214BE03F727405692B5E /* Pods-vinhome_smart_city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinhome_smart_city.release.xcconfig"; path = "Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city.release.xcconfig"; sourceTree = "<group>"; };
+		2121D8E49D655F9F462CE1FC /* Pods-vinhome_smart_city-vinhome_smart_cityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinhome_smart_city-vinhome_smart_cityTests.release.xcconfig"; path = "Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests.release.xcconfig"; sourceTree = "<group>"; };
+		356EAAA2FFA4420891594B3F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3AE14BC88CDD4E3CB7250149 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		508EB6F4B6EAF08520F60FC6 /* libPods-vinhome_smart_city-vinhome_smart_cityTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vinhome_smart_city-vinhome_smart_cityTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E5ADA31F6ED48E150C799E /* Pods-vinhome_smart_city.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vinhome_smart_city.debug.xcconfig"; path = "Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city.debug.xcconfig"; sourceTree = "<group>"; };
+		6CBBFB5742A9411F9B3703F9 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		6E1F78C953284E33ABAEF1AD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vinhome_smart_city/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90A4E77247374F4DA569F5F4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A88A03198193454EB10B50D0 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CEA510F71E73422F8F3E6B23 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		DAB072261A5F435CB14FCBBB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F75B7567A9704316BBA18D39 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		FB67D068E6B0446FBA8254E5 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		FE876B868F7447E9B798D814 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D814D33DE3F2EB04206A3DBA /* libPods-vinhome_smart_city-vinhome_smart_cityTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E07D8D93C4082E768C78E7E /* libPods-vinhome_smart_city.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +120,46 @@
 			name = vinhome_smart_city;
 			sourceTree = "<group>";
 		};
+		2C884762772A461985C82000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CBBFB5742A9411F9B3703F9 /* Roboto-Black.ttf */,
+				A88A03198193454EB10B50D0 /* Roboto-BlackItalic.ttf */,
+				FB67D068E6B0446FBA8254E5 /* Roboto-Bold.ttf */,
+				CEA510F71E73422F8F3E6B23 /* Roboto-BoldItalic.ttf */,
+				6E1F78C953284E33ABAEF1AD /* Roboto-Italic.ttf */,
+				03E293FD6D99427A8D9E880F /* Roboto-Light.ttf */,
+				F75B7567A9704316BBA18D39 /* Roboto-LightItalic.ttf */,
+				DAB072261A5F435CB14FCBBB /* Roboto-Medium.ttf */,
+				356EAAA2FFA4420891594B3F /* Roboto-MediumItalic.ttf */,
+				90A4E77247374F4DA569F5F4 /* Roboto-Regular.ttf */,
+				3AE14BC88CDD4E3CB7250149 /* Roboto-Thin.ttf */,
+				FE876B868F7447E9B798D814 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				077E442D41FC23FCAAC2374E /* libPods-vinhome_smart_city.a */,
+				508EB6F4B6EAF08520F60FC6 /* libPods-vinhome_smart_city-vinhome_smart_cityTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BF83D52B5435FB253314EF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E5ADA31F6ED48E150C799E /* Pods-vinhome_smart_city.debug.xcconfig */,
+				1D4B214BE03F727405692B5E /* Pods-vinhome_smart_city.release.xcconfig */,
+				03174A94655851338082045B /* Pods-vinhome_smart_city-vinhome_smart_cityTests.debug.xcconfig */,
+				2121D8E49D655F9F462CE1FC /* Pods-vinhome_smart_city-vinhome_smart_cityTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -109,6 +177,8 @@
 				00E356EF1AD99517003FC87E /* vinhome_smart_cityTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4BF83D52B5435FB253314EF7 /* Pods */,
+				2C884762772A461985C82000 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -131,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vinhome_smart_cityTests" */;
 			buildPhases = (
+				AFD335A292DBF084B9B3D294 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				FD164511BC7A7F9774D00C24 /* [CP] Embed Pods Frameworks */,
+				D44C0FD88BCC9D79FEDA194F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,11 +222,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vinhome_smart_city" */;
 			buildPhases = (
+				17667CDE976BDE1988A59E7E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				97AFD169A565949E0891BBEB /* [CP] Embed Pods Frameworks */,
+				F1885305CE0DC4F31EB526E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +290,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CCC317AF48F443F6A207494F /* Roboto-Black.ttf in Resources */,
+				7C3F8610CA074C31A3FC6EA1 /* Roboto-BlackItalic.ttf in Resources */,
+				5979391C907A49259018451F /* Roboto-Bold.ttf in Resources */,
+				4C120901ED8748E5B26A0731 /* Roboto-BoldItalic.ttf in Resources */,
+				86114D573EFA49F9A5FAEE20 /* Roboto-Italic.ttf in Resources */,
+				ED1999255D584513AFCD5CB0 /* Roboto-Light.ttf in Resources */,
+				E7241EBB23E04660B419B4E0 /* Roboto-LightItalic.ttf in Resources */,
+				DAC0E03624464FE595E8E428 /* Roboto-Medium.ttf in Resources */,
+				199AA78FAD854BAC8A298A69 /* Roboto-MediumItalic.ttf in Resources */,
+				8526D523612848C0B28F1CDB /* Roboto-Regular.ttf in Resources */,
+				46220DCDA2B0401FAC68F592 /* Roboto-Thin.ttf in Resources */,
+				EB96A082AE3D417FA42E706B /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +322,101 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
+		17667CDE976BDE1988A59E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vinhome_smart_city-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AFD169A565949E0891BBEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD335A292DBF084B9B3D294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vinhome_smart_city-vinhome_smart_cityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D44C0FD88BCC9D79FEDA194F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1885305CE0DC4F31EB526E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city/Pods-vinhome_smart_city-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +434,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD164511BC7A7F9774D00C24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vinhome_smart_city-vinhome_smart_cityTests/Pods-vinhome_smart_city-vinhome_smart_cityTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -286,6 +486,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03174A94655851338082045B /* Pods-vinhome_smart_city-vinhome_smart_cityTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -312,6 +513,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2121D8E49D655F9F462CE1FC /* Pods-vinhome_smart_city-vinhome_smart_cityTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -335,6 +537,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E5ADA31F6ED48E150C799E /* Pods-vinhome_smart_city.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -360,6 +563,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4B214BE03F727405692B5E /* Pods-vinhome_smart_city.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,6 +618,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -478,6 +683,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
