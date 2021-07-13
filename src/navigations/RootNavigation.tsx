@@ -1,10 +1,10 @@
-import 'react-native-gesture-handler';
-import * as React from 'react';
+import { HomeScreen } from '@/screens/Home/HomeScreen';
+import { ProfileScreen } from '@/screens/Profile/ProfileScreen';
+import { navigationRef } from '@/utils/navigation';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { navigationRef } from '@/utils/navigation';
-
-import { HomeScreen } from '@/screens/Home/HomeScreen';
+import * as React from 'react';
+import 'react-native-gesture-handler';
 
 const RootStack = createStackNavigator();
 
@@ -23,8 +23,16 @@ export const RootNavigator = React.memo(() => {
 
 	return (
 		<NavigationContainer ref={navigationRef} onStateChange={onStateChange}>
-			<RootStack.Navigator mode="modal" headerMode="none">
-				<RootStack.Screen name="Root" component={HomeScreen} />
+			<RootStack.Navigator
+				mode="card"
+				headerMode="none"
+				initialRouteName="HomeScreen"
+			>
+				<RootStack.Screen name="HomeScreen" component={HomeScreen} />
+				<RootStack.Screen
+					name="ProfileScreen"
+					component={ProfileScreen}
+				/>
 			</RootStack.Navigator>
 		</NavigationContainer>
 	);

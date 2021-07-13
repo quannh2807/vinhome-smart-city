@@ -3,6 +3,9 @@ import { Provider } from 'react-redux';
 import { RootNavigator } from './src/navigations/RootNavigation';
 import { PersistGate } from 'redux-persist/integration/react';
 import { UIKitProvider } from './src/components/UIKitProvider';
+import { LogBox } from 'react-native'
+
+LogBox.ignoreAllLogs();
 
 const App = () => {
 	return (
