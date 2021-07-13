@@ -1,7 +1,7 @@
 export * from 'react-redux/index';
 import 'styled-components/native';
 
-declare type RootState = ReturnType<
+export type RootState = ReturnType<
     typeof import('./src/store')['store']['getState']
     >;
 

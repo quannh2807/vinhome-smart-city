@@ -1,17 +1,17 @@
-import {Fetch, updateFetchToken} from "@/utils/fetch";
-import {RawProfile, RawCustomNotify, RawLogin} from "@/types";
-import {setTokenAction, setUserAction} from "@/store/constant/index";
-import Global from "@/utils/Global";
-import ToastService from "@/services/ToastService";
-import {} from "@/utils/navigation";
-import {Core} from "@/global";
+import { Fetch, updateFetchToken } from '@/utils/fetch';
+import { RawProfile, RawCustomNotify, RawLogin } from '@/types';
+import { setTokenAction, setUserAction } from '@/store/constant/index';
+import Global from '@/utils/Global';
+import ToastService from '@/services/ToastService';
+import {} from '@/utils/navigation';
+import { Core } from '@/global';
 import moment from 'moment';
 
 export interface LoginPrams {
-    "phone": string,
-    "plainPassword": string
+	phone: string;
+	plainPassword: string;
 }
-
+/*
 export const requestLogin = async (params: LoginPrams) => {
     const {data} = await Fetch.post<{
         result: RawLogin
@@ -28,7 +28,6 @@ export const requestLogin = async (params: LoginPrams) => {
     await requestGetProfile();
     updateFetchToken(data?.result?.token);
     setTokenAction(data?.result?.token);
-    replaceWithMainScreen();
     return data.result;
 };
 
@@ -157,3 +156,4 @@ export const requestUploadFile = async (params: UploadImageParams) => {
 
     return data?.result?.image_url || null
 };
+ */
