@@ -5,6 +5,7 @@ import {
 } from '@react-navigation/native';
 
 import {TransitionPresets} from "@react-navigation/stack";
+import { ProfileScreenParams } from '@/screens/Profile/ProfileScreen';
 
 export const defaultScreenOptions = TransitionPresets.SlideFromRightIOS;
 
@@ -32,6 +33,9 @@ export const createReplace = <T extends object>(screenName: string) => (
 };
 
 export const goBack = () => navigation().goBack();
+
+export const navigateToHomeScreen = createNavigate('HomeScreen');
+export const navigateToProfileScreen = createNavigate<ProfileScreenParams>('ProfileScreen');
 
 /**
  * USAGE EXAMPLE:
