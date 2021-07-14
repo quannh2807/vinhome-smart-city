@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { RootNavigator } from './src/navigations/RootNavigation';
+import { RootNavigator } from './src/navigations/RootNavigator';
 import { PersistGate } from 'redux-persist/integration/react';
 import { UIKitProvider } from './src/components/UIKitProvider';
 import { LogBox } from 'react-native'
