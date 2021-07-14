@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
 import 'react-native-gesture-handler';
+import { BottomNavigator } from './BottomNavigator';
 
 const RootStack = createStackNavigator();
 
@@ -26,13 +27,9 @@ export const RootNavigator = React.memo(() => {
 			<RootStack.Navigator
 				mode="card"
 				headerMode="none"
-				initialRouteName="HomeScreen"
+				initialRouteName="BottomNavigator"
 			>
-				<RootStack.Screen name="HomeScreen" component={HomeScreen} />
-				<RootStack.Screen
-					name="ProfileScreen"
-					component={ProfileScreen}
-				/>
+				<RootStack.Screen name="BottomNavigator" component={BottomNavigator} />
 			</RootStack.Navigator>
 		</NavigationContainer>
 	);
